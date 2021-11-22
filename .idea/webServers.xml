@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="46022d17-3c45-4c1a-a738-685c979da0bb" name="QANstar">
+        <fileTransfer rootFolder="/JavaEE/" accessType="SFTP" host="139.224.221.148" port="88" sshConfigId="2dd43d52-8462-4d71-a3eb-fd4a715d3b10" sshConfig="QANstarServer">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

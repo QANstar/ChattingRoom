@@ -1,0 +1,222 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: '微软雅黑','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f5f5f5;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; */
+}
+
+.logIframe {
+    width: 98%;
+    height: 98%;
+}
+
+
+.top{
+    width: 100%;
+    height: 6vh;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+.main{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b4c7d0;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track-piece {
+    background: 0 0;
+}
+.talkContent{
+    width: 70%;
+    height: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.messageContent{
+    width: 20%;
+    height: 90%;
+    background-color:rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(253, 195, 109);
+    border-radius: 5px;
+}
+
+.talkMain{
+    width: 98%;
+    height: 80%;
+    /* background-color: coral; */
+    background-color:rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(253, 195, 109);
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x:scroll;
+}
+
+.inputMain{
+    width: 98%;
+    height: 15%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+}
+
+.textInput{
+    height: 100% !important;
+    opacity: 0.8;
+}
+
+.chat-sender{
+    clear:both;
+    font-size: 80%;
+}
+.chat-sender div:nth-of-type(1){
+    float: left;
+}
+.chat-sender div:nth-of-type(2){
+    margin: 0 50px 2px 50px;
+    padding: 0px;
+    color: #848484;
+    font-size: 70%;
+    text-align: left;
+}
+.chat-sender div:nth-of-type(3){
+    background-color: white;
+    float: left;
+    margin: 0 50px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius:7px;
+    text-indent: -12px;
+}
+
+.chat-receiver{
+    clear:both;
+    font-size: 80%;
+}
+.chat-receiver div:nth-of-type(1){
+    float: right;
+}
+.chat-receiver div:nth-of-type(2){
+    margin: 0px 50px 2px 50px;
+    padding: 0px;
+    color: #848484;
+    font-size: 70%;
+    text-align: right;
+}
+.chat-receiver div:nth-of-type(3){
+    float:right;
+    background-color: #b2e281;
+    margin: 0px 10px 10px 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius:7px;
+}
+
+.chat-receiver div:first-child img,
+.chat-sender div:first-child img{
+    width: 40px;
+    height: 40px;
+    /*border-radius: 10%;*/
+}
+
+.chat-left_triangle{
+    height: 0px;
+    width: 0px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+    position: relative;
+    left: -22px;
+    top: 3px;
+}
+.chat-right_triangle{
+    height: 0px;
+    width: 0px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #b2e281;
+    position: relative;
+    right:-22px;
+    top:3px;
+}
+
+.peopleTop{
+    display: flex;
+    font-size: 1.5rem;
+    color: #000;
+    align-items: center;
+    border-bottom: 1px solid rgb(253, 195, 109);
+    flex-direction: column;
+}
+
+.onlineEle img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.onlineEle{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: rgba(216, 216, 216, 0.7);
+    margin: 5px;
+    border: 1px solid rgb(253, 195, 109);
+    border-radius: 10px;
+}
+
+.toastAnim{
+    -webkit-animation: toast 0.5s;
+}
+
+
+@-webkit-keyframes toast {
+
+    0%{
+
+        opacity: 0;
+
+        -webkit-transform: scale(0);
+
+        transform: scale(0);
+
+    }
+
+    100%{
+
+        opacity: 1;
+
+        -webkit-transform: scale(1);
+
+        transform: scale(1);
+
+    }
+
+}

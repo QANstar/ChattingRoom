@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: none;
+    justify-content: center;
+    position: fixed;
+}
+
+.formBox {
+    color: #fff;
+    background-color: rgba(71, 71, 71, 0.6);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.formButton {
+    display: flex;
+    justify-content: space-around;
+}
