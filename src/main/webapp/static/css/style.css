@@ -66,8 +66,10 @@ body {
     width: 20%;
     height: 90%;
     background-color:rgba(255, 255, 255, 0.8);
-    border: 1px solid rgb(253, 195, 109);
+    /*border: 1px solid rgb(253, 195, 109);*/
     border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    padding: 10px;
 }
 
 .talkMain{
@@ -75,10 +77,12 @@ body {
     height: 80%;
     /* background-color: coral; */
     background-color:rgba(255, 255, 255, 0.8);
-    border: 1px solid rgb(253, 195, 109);
+    /*border: 1px solid rgb(253, 195, 109);*/
     border-radius: 5px;
     padding: 10px;
     overflow-x:scroll;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+
 }
 
 .inputMain{
@@ -86,6 +90,8 @@ body {
     height: 15%;
     /* background-color: cornflowerblue; */
     display: flex;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+
 }
 
 .textInput{
@@ -171,8 +177,9 @@ body {
     font-size: 1.5rem;
     color: #000;
     align-items: center;
-    border-bottom: 1px solid rgb(253, 195, 109);
+    /*border-bottom: 1px solid rgb(253, 195, 109);*/
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .onlineEle img{
@@ -188,7 +195,8 @@ body {
     padding: 15px;
     background-color: rgba(216, 216, 216, 0.7);
     margin: 5px;
-    border: 1px solid rgb(253, 195, 109);
+    margin-bottom: 12px;
+    /*border: 1px solid rgb(253, 195, 109);*/
     border-radius: 10px;
 }
 

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="<%=basePath%>/static/css/style.css">
     <style>
         body {
-            background: url(<%=basePath%>/static/img/talkBackground.png);
+            background: url(<%=basePath%>/static/img/talkBackground3.jpg);
             background-repeat: no-repeat;
             background-size:cover;
             background-attachment: fixed;
@@ -45,10 +45,10 @@
         </div>
         <div class="messageContent">
             <div class="peopleTop">
-                <div>
+                <div style="font-weight: 600;font-size: 1.3rem">
                     当前在线
                 </div>
-                <div style="font-size: 1rem;color: #FF0033;">
+                <div style="font-weight: 600;font-size: 1rem;color: #FF0033;">
                     人数：<span id="peopleNum"></span>
                 </div>
             </div>
